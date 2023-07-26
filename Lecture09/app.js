@@ -12,9 +12,5 @@
             var upCase = $filter('uppercase');
             $scope.name = upCase($scope.name)
         }
-        console.log($injector.annotate(DIController))
-    }
-    function AnnotateMe(name,job,blah) {
-        return "blah!"
     }
 })()
